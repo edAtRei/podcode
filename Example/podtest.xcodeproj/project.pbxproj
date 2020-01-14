@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07B88B346A4327D89E95A53D /* podtest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = podtest.podspec; path = ../podtest.podspec; sourceTree = "<group>"; };
+		07B88B346A4327D89E95A53D /* podtest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = podtest.podspec; path = ../podtest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		08C2CE4CF3D2733E75BD7786 /* Pods-podtest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podtest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4A5D2485135E6477AAE0CA /* Pods-podtest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podtest_Example.release.xcconfig"; path = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4096ABDDDA119C95867894D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4096ABDDDA119C95867894D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* podtest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podtest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* podtest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podtest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76B988075008BF15D50F37A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76B988075008BF15D50F37A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7ACA1D9B46D490474F335A35 /* Pods-podtest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podtest_Tests.release.xcconfig"; path = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92439663B3E98837BDF93AD7 /* Pods-podtest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podtest_Example.debug.xcconfig"; path = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9253C4C3A41C3A25C8E25353 /* Pods_podtest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podtest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				08C2CE4CF3D2733E75BD7786 /* Pods-podtest_Tests.debug.xcconfig */,
 				7ACA1D9B46D490474F335A35 /* Pods-podtest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
